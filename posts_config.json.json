@@ -1,0 +1,22 @@
+{
+  "source": "posts.json",
+  "target_table": "posts_curated",
+  "columns": [
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "title",
+      "type": "string"
+    },
+    {
+      "name": "body",
+      "type": "string"
+    },
+    {
+      "name": "userId",
+      "type": "int"
+    }
+  ]
+}
